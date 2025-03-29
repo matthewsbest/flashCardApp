@@ -1,0 +1,43 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Centered Flashcard Container */
+.flashcard-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+/* Flashcard Style */
+.flashcard {
+    width: 500px; /* Larger card */
+    height: 300px; /* Taller card */
+    background: linear-gradient(145deg, #ffffff, #e6e6e6); /* Subtle card gradient */
+    border-radius: 25px; /* Rounded edges */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Deeper shadow for 3D effect */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px; /* Bigger text */
+    font-weight: bold; /* Bold font */
+    color: #333;
+    cursor: pointer; /* Clickable pointer */
+    transition: transform 0.3s ease;
+}
+
+/* Hover Effect */
+.flashcard:hover {
+    transform: scale(1.05); /* Subtle zoom effect */
+}
+
+/* Progress Counters */
+#levelCounter, #totalCounter {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.container {
+    max-width: 900px; /* Better max-width for centering */
+}
